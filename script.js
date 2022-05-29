@@ -3,7 +3,7 @@ let rec;
     	alert("disculpas, no puedes usar la API");
     } else {
     	rec = new webkitSpeechRecognition();
-    	rec.lang = "es-ES";
+    	rec.lang = "en-EN";
     	rec.continuous = true;
     	rec.interim = true;
     	rec.addEventListener("result",iniciar);
